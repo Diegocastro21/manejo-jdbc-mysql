@@ -18,6 +18,7 @@ public class PersonaJDBC {
     private static final String SQL_DELETE = "DELETE FROM persona WHERE idpersona = ?";
 
 
+
     public List<Persona> seleccionar() {
         Connection conn = null;
         PreparedStatement stmt = null;
